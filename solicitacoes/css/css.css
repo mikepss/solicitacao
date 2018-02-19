@@ -1,0 +1,327 @@
+@font-face {
+	src: url("../fonts/corpid.otf");
+	font-family: corpid;
+}
+
+@font-face {
+	src: url("../fonts/BebasNeueRegular.ttf");
+	font-family: bebasreg;
+}
+
+@font-face {
+	src: url("../fonts/Roboto-Thin.ttf");
+	font-family: RobotoT;
+}
+
+@font-face {
+	src: url("../fonts/Roboto-Light.ttf");
+	font-family: RobotoL;
+}
+
+@font-face {
+	src: url("../fonts/Roboto-Bold.ttf");
+	font-family: RobotoB;
+}
+
+
+@font-face {
+	src: url("../fonts/BebasNeueBold.otf");
+	font-family: bebasbold;
+}
+
+body, html {
+	height: 100%;
+}
+
+.chm {
+	color: #FF7900; 
+	font-size: 16px;
+	font-family: corpid;
+}
+
+.menu2 {
+	width: 250px;
+	height: 100%;
+	background-color: #040B21;
+	position: fixed;
+}
+
+.logo {
+	width: 100%;
+	padding-left: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #0f0f0f;
+	background-image: url("../images/blue-bg.jpg");
+	background-size: 100% 100%;
+}
+
+.conteudo {
+	margin-left: 250px;
+}
+
+.topo {
+	background-color: #040B21;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: table;
+	width: 100%;
+}
+
+.links{
+	width: 100%;
+	padding: 0;
+	margin-top: 40px;
+}
+
+.links li {
+	list-style: none;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #fff;
+	cursor: pointer;
+	font-family: bebasreg;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+.ativado {
+	font-weight: bold;
+	color: #ff7900;	
+}
+
+.destaque {
+	font-size: 48px;
+	font-weight:100;
+	font-family: RobotoL;
+	color: #434343;
+}
+
+.destaque2 {
+	font-size: 30px;
+	font-weight:100;
+	font-family: RobotoL;
+	color: #888888;
+}
+
+.destaque3 {
+	font-size: 18px;
+	font-weight:100;
+	font-family: RobotoB;
+	color: #FF7900;
+}
+
+.wellcome {
+	margin-top: 20%;	
+}
+
+.headercomp {
+	width: 100%;
+	margin-top: 15px;
+	display: table;	
+}
+
+.esq {
+	float: left;
+	width:70%;	
+}
+
+.dir {
+	float: right;
+	width: 27%;	
+	padding-top: 30px;
+	text-align: right;
+}
+
+.links li:hover {
+	background-color: #FF7900;
+}
+
+.active {
+	background-color: #FF7900;
+}
+
+.topesq {
+	float: left;
+	margin-top: 8px;
+}
+
+.topdir {
+	float: right;
+	display: table;
+}
+
+.destnome {
+	font-family: corpid;
+}
+
+.destdep {
+	font-size: 12px;
+}
+
+.foto {
+	float: left;
+}
+
+.infos {
+	float: left;
+	margin-left:20px;
+}
+
+.soli {
+	color: #fff;
+	background-color: #FF7900;
+	padding: 5px 10px;
+	border-radius: 6px;
+}
+
+.soli:hover{
+	color: #fff;
+	background-color:#013c6b;
+}
+
+.conteudocomp {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	width:100%;
+}
+
+.bai {
+	color: #555;
+}
+
+.nor {
+	color: #0f0f0f;
+}
+
+.urg {
+	color: #ff0000;
+}
+
+
+.hide {
+    display: none;
+}
+
+.modal-bg {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: #000;
+    opacity: 0.7;
+    z-index: 9999;
+}
+
+.modal-content {
+    position: fixed;
+    width: 40%;
+    height: 88%;
+    margin: 0 auto;
+    top: 20px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+    border: #0f0f0f 4px solid;
+    border-radius: 6px;
+    z-index: 99999;
+    overflow: hidden;
+}
+
+.modal-close {
+    font-size: 2rem;
+    line-height: 1;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFF;
+    z-index: 99999;
+    font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
+
+.modal-content h5 {
+	margin-top: 5px;
+	color: #fff;
+}
+
+.topmodal {
+	background-color: #0f0f0f;
+	padding: 5px 15px 1px 10px;
+}
+
+.contmodal {
+	padding: 10px 15px;
+}
+
+.copyright {
+	bottom: 20px;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.dropba {
+	border: 1px solid #ccc;
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+	padding-left: 10px;
+	color: #999;
+}
+
+.ui-datepicker-trigger {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.tabelapers tr:hover{
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.fita {
+	background-image: url(../images/fita.png);
+	background-repeat: repeat-x;
+	height: 5px;	
+}
+
+.radio {
+	margin-top: 10px;	
+}
+
+@media screen and (max-width: 1100px) {
+	.modal-content {
+		width: 60%;
+		height: 94%;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.menu2 {
+		display: none;
+	}
+
+	.conteudo{
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.modal-content {
+		width: 80%;
+	}
+}
